@@ -256,3 +256,61 @@ nav {
     top: unset;
     bottom: 5px;
 }
+/* -----------------end-------------- */
+/* ----------------- star story section ------------------------ */
+
+.story-galary{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.story{
+    flex-basis: 14%;
+    padding-top: 26%;
+    position: relative;
+    /* background-image: linear-gradient(transparent, rgb(0,0,0,0.5)), url(images/nikitaimg.jpeg); */
+    background-size:cover ;
+    border-radius: 10px;
+}
+.story img{
+    position: absolute;
+    width: 45px;
+    border-radius: 50%;
+    /* border: #fff; */
+   top: 10px;
+   left: 10px;
+   border: 5px solid #1876f2 ;
+}
+.story p{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.story1{
+    background-image: linear-gradient(transparent, rgb(0,0,0,0.5)), url(images/nikitaimg.jpeg);
+
+}
+.story2{
+    background-image: linear-gradient(transparent, rgb(0,0,0,0.5)), url(images/m1.png);
+
+}.story3{
+    background-image: linear-gradient(transparent, rgb(0,0,0,0.5)), url(images/m2.png);
+
+}.story4{
+    background-image: linear-gradient(transparent, rgb(0,0,0,0.5)), url(images/m3.png);
+
+}.story5{
+    background-image: linear-gradient(transparent, rgb(0,0,0,0.5)), url(images/m4.png);
+
+}
+.story.story1 img{
+    top: unset;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    border:0;
+    width: 35px;
+}
+/* -----------------complete story section ------------------------ */
